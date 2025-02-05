@@ -35,6 +35,8 @@ Comentarios en bloque o multilinea*/
 //Ejercicios de CAMPUS
 
 // Ejemplos de tipos de datos en JavaScript
+console.log("******************************************************");    
+console.log("Ejercicios de tipos de datos de Campus");     
 console.log(typeof 42);        // number
 console.log(typeof 'Veinticinco'); // string
 console.log(typeof -666);      // number
