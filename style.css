@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+/* Estilos para el navbar */
+.navbar {
+    background: linear-gradient(90deg, #fc94dd, 
+    #fadac4, #a1c4fd);
+}
+.navbar-brand, .nav-link {
+    color: #f2f2f3 !important;
+    font-weight: bold;
+}
+/* Estilos para el header */
+.header {
+    background: linear-gradient(90deg, #fc94dd, #fadac4, #a1c4fd);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+/* Contenedor de Cards */
+.card-container {
+    background: #f7eef8; /* Color de fondo sutil */
+    border: #f7bae4 solid;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para las cards */
+.card {
+    border: none;
+    background: linear-gradient(45deg, #fc94dd, #fadac4, 
+    #fadac4, #f5bdc4, #fcea90, #a5c6fa, #bbe8fd);
+    background-size: 300% 300%;
+    animation: gradientBG 6s ease infinite;
+    color: #1a1b1c;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 15px;
+}
+.card:hover {
+    transform: scale(1.05) rotate(3deg);
+}
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #a1c4fd, #bdfaf7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;    
+    color: #1a1b1c;
+}
+p{
+    text-align: center;
+    color: #1a1b1c;
+}
