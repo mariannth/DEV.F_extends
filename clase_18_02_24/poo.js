@@ -61,3 +61,46 @@ function mostrarArea(figura) {
 
 mostrarArea(miCirculo);
 mostrarArea(miRectangulo);
+
+
+//5. Encapsulamiento
+class Persona {
+  #nombre; // Propiedad privada (con #)
+
+  constructor(nombre) {
+      this.#nombre = nombre;
+  }
+
+  // Getter para obtener el nombre
+  get nombre() {
+      return this.#nombre;
+  }
+
+  // Setter para modificar el nombre (con validación)
+  set nombre(nuevoNombre) {
+      if (nuevoNombre.length > 2) {
+          this.#nombre = nuevoNombre;
+      } else {
+          console.log("El nombre debe tener más de 2 caracteres.");
+      }
+  }
+}
+
+// Crear una instancia de Persona
+const persona1 = new Persona("Juan");
+
+// Acceder al nombre con el getter
+console.log(persona1.nombre); // Output: Juan
+
+// Modificar el nombre con el setter
+persona1.nombre = "Ana";
+console.log(persona1.nombre); // Output: Ana
+
+// Intentar asignar un nombre inválido
+persona1.nombre = "A"; // Output: El nombre debe tener más de 2 caracteres.
+
+
+//FUNCIONES ARROW
+const sumar = (a, b) => a + b;
+
+console.log(sumar(5, 3)); // Output: 8
