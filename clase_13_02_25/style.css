@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background: linear-gradient(90deg, #fc94dd, #fadac4, #a1c4fd);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #f2f2f3 !important;
+    font-weight: bold;
+}
+
+/* Estilos para el header */
+.header {
+    background: linear-gradient(90deg, #fc94dd, #fadac4, #a1c4fd);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Estilos específicos para la sección de libros leídos */
+.libros-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.libros-container input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.libros-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.libros-container button:hover {
+    background-color: #0056b3;
+}
+
+.libros-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.libros-container li {
+    padding: 8px;
+    background-color: #f1f1f1;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #a1c4fd, #bdfaf7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
