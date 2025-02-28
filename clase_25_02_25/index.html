@@ -1,45 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seguimiento de Libros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="header">
+        <h1>Generador de Contraseñas Seguras</h1>
+    </header>
 
-    <!-- Selección de DOM medinte ID -->
-    <h1 id="titulo">Hola Mundo!</h1>
-    <button onclick="cambiarTexto()">Cambiar Texto</button>
-    
-    <!-- Selección de DOM medinte Clase -->
-    <p class="texto">Este es el primer párrafo</p>
-    <p class="texto">Este es el segundo párrafo</p>
-    <p class="texto">Este es el tercer párrafo</p>
-    <button onclick="cambiarColor()">Cambiar Color</button>
+    <div class="password">
+        <h2>Configura tu contraseña</h2>
 
-    <!-- Selección por etiqueta -->
-     <p> Hola soy un parrafo</p>
-     <p> Hola, yo también soy un parrafo</p>
-     <button onclick="ocultarParrafo()">Oculta el segundo parrafo</button>
+        <label for="length">Longitud:</label>
+        <input type="number" id="length" min="8" max="20" value="12">
+        
+        <div class="checkbox-group">
+            <label><input type="checkbox" id="includeNumbers" checked> Incluir Números</label>
+            <label><input type="checkbox" id="includeSymbols" checked> Incluir Símbolos</label>
+            <label><input type="checkbox" id="includeUppercase" checked> Incluir Mayúsculas</label>
+        </div>
 
-     <!-- Usando querySelector -->
+        <button class="btn" onclick="generarPassword()">Generar Contraseña</button>
 
-     <div>
-        <p class="mensaje"> Mi perro se llama Milaneso</p>
-     </div>
-     <p> Mi gato se llama Garfield</p>
+        <h3>Tu Contraseña:</h3>
+        <input type="text" id="passwordOutput" readonly>
+        <button onclick="copiarPassword()">Copiar</button>
+    </div>
 
-     <button onclick="cambiarTextoDiv()"> Cambiar el texto del div</button>  
-     
-     <!-- Usando querySelectorAll -->
-      <ul> 
-        <li>Item1</li>
-        <li>Item2</li>
-        <li>Item3</li>
-      </ul>
+     <!-- Footer -->
+     <footer class="footer">
+        <p>© 2025 Mariana Torres. Mi portafolio de trabajo Todos los derechos reservados.</p>
+    </footer>
 
-      <button onclick="marcarItems()">Mostrar Item</button>
 
-    <script src="dom.js"></script>
+    <script src="generador-passwords.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background: linear-gradient(90deg, #fc94dd, 
+    #fadac4, #a1c4fd);
+}
+.navbar-brand, .nav-link {
+    color: #f2f2f3 !important;
+    font-weight: bold;
+}
+/* Estilos para el header */
+.header {
+    background: linear-gradient(90deg, #fc94dd, #fadac4, #a1c4fd);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+/* Contenedor principal */
+.password {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+}
+
+/* Inputs y botones */
+input, button {
+    padding: 10px;
+    width: 90%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Grupo de checkboxes */
+.checkbox-group {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #a1c4fd, #bdfaf7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
