@@ -1,80 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasteleria Delicias</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Seguimiento de Libros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    <!--Cabecera con barra de navegacion-->
-    <header>
-        <h1>Pasteleria Delicias</h1>
-        <nav>
-            <ul>
-                <li><a href="#" id="menu-inicio">Inicio</a></li>
-                <li><a href="#" id="menu-productos">Menu</a></li>
-                <li><a href="#" id="menu-contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <!--Contenido principal--> 
-        <section id="inicio">
-            <h2>¡Bienvenido/a a nuestra pasteleria!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe aut vel corrupti doloremque explicabo, veritatis qui nulla ex amet molestias itaque repudiandae unde blanditiis laboriosam alias aliquam dolor suscipit consectetur.</p>
-        </section>
-        <!--Menu-->
-        <section id="productos" style="display:none;">
-            <h2>Prueba nuestros deliciosos productos...</h2>
-            <div id="lista-productos">
-                <!--Tarjeta de mis productos-->
-                <div class="producto">
-                    <h3>Pastel de Chocolate</h3>
-                    <p>Pastel de chocolate, con cobertura de frutas.</p>
-                    <button class="agregar-carrito" data-nombre="Pastel de chocolate" data-precio="250">Agregar al carrito</button>
-                </div>
-                <div class="producto">
-                    <h3>Pastel de Fresa</h3>
-                    <p>Pastel con sabor fresas con crema.</p>
-                    <button class="agregar-carrito" data-nombre="Pastel de fresa" data-precio="200">Agregar al carrito</button>
-                </div>
-                <div class="producto">
-                    <h3>Pastel de Vainilla</h3>
-                    <p>Pastel tipo 3 leches de Vainilla.</p>
-                    <button class="agregar-carrito" data-nombre="Pastel de vainilla" data-precio="150">Agregar al carrito</button>
-                </div>
-                <div id="carrito">
-                    <h2>Carrito:</h2>
-                    <ul id="lista-carrito"></ul>
-                    <p>Total: $<span id="total-carrito">0</span></p>
-                </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
             </div>
-        </section>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="header">
+        <h1>Comentarios sobre Libros</h1>
+        <br>
+        <h2>Deja tu Comentario</h2>
+    </header>
+    <br>
+    <div class="container">
+        <h2>Agrega un Comentario</h2>
 
-                <!--Formulario de contacto-->
-                <section id="contacto" style="display: none;">
-                    <h2>Contactanos</h2>
-                    <form id="formulario-contacto">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+        <textarea id="commentInput" placeholder="Escribe tu comentario sobre un libro..."></textarea>
+        <button onclick="agregarComentario()">Agregar Comentario</button>
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+        <h3>Comentarios:</h3>
+        <div id="commentSection"></div>
+    </div>
 
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" required></textarea>
 
-                        <button type="submit">Enviar</button>
-                    </form>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Mariana Torres. Mi portafolio de trabajo Todos los derechos reservados.</p>
+    </footer>
 
-                    <div id="mensaje-enviado" style="display: none;">
-                        <p>¡Gracias! Mensaje enviado</p>
-                    </div>
-                </section>
 
-    </main>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
