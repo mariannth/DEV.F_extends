@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Viajes</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo de estilos -->
+</head>
+<body>
+
+    <header>
+        <h1>Planificador de Viajes</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Registrar Destinos</h2>
+            <form id="formDestino">
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" placeholder="Destino de viaje" required>
+
+                <label for="fecha">Fecha de Viaje:</label>
+                <input type="date" id="fecha" required>
+
+                <label for="transporte">Transporte:</label>
+                <select id="transporte" required>
+                    <option value="Avión">Avión</option>
+                    <option value="Tren">Tren</option>
+                </select>
+
+                <button type="submit">Registrar Destino</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Itinerario</h2>
+            <div id="itinerario">
+                <!-- Aquí se mostrará el itinerario de los viajes registrados -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Planificador de Viajes</p>
+    </footer>
+
+    <!-- Archivos JS -->
+    <script src="viajes.js"></script> <!-- Archivo de lógica de viajes -->
+    <script src="app.js"></script> <!-- Archivo de interacción de la aplicación -->
+
+</body>
+</html>
