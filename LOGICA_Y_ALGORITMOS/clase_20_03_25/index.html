@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEJ4IQK6RIQkF5Zn0g9F8dH6FI1aALbKxDkIQGg1ipJLY5dyJ3JxT+m6kz7zB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Course Frontend asistido por IA</h1>
+        <p>Programa intensivo de desarrollo web con inteligencia artificial</p>
+    </header>
+    <div class="container">
+        <h2 class="text-center mb-4">Lista de Compras</h2>
+
+        <!-- Input de producto -->
+        <div class="input-group mb-3">
+            <input type="text" id="productoInput" class="form-control" placeholder="Agregar un producto"
+                aria-label="Producto" aria-describedby="button-addon2">
+            <button class="btn btn-primary" id="agregarBtn" type="button">Agregar</button>
+        </div>
+
+        <!-- Lista de productos -->
+        <ul class="list-group" id="listaDeCompras">
+            <!-- Los productos se agregarán aquí -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Mariana Torres. Mi portafolio de trabajo Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

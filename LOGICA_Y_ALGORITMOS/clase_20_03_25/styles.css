@@ -1,0 +1,55 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+}
+body {
+    background-color: white;
+}
+/* Estilos para el navbar */
+.navbar {
+    background: linear-gradient(90deg, #fc94dd, 
+    #fadac4, #a1c4fd);
+}
+.navbar-brand, .nav-link {
+    color: #f2f2f3 !important;
+    font-weight: bold;
+}
+/* Estilos para el header */
+.header {
+    background: linear-gradient(90deg, #fc94dd, #fadac4, #a1c4fd);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #a1c4fd, #bdfaf7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;    
+    color: #1a1b1c;
+}
+p{
+    text-align: center;
+    color: #1a1b1c;
+}
+li{
+    text-align: center;
+    color: #1a1b1c; 
+    font-size: 12px;
+}
