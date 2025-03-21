@@ -96,10 +96,40 @@ Programa intensivo de desarrollo web con inteligencia artificial, diseñado para
   - Intro a Node.js y npm
     - Introducción a node.js y npm
     - Practica:Intro a Node.js y npm
-Intro a Vite
+  - Intro a Vite
     - Vite parla crear proyectos de Node
     - Practica:Intro a Vite
 - Introducción a React
+  - Intro a React
+    - Introducción a React
+    - Functional Components en React
+    - Practica:Intro a React
+  - Manejo de Estado
+    - Introducción a Props en React
+    - Hooks en React y useState
+    - Practica:Manejo de Estado
+  - Hooks useEffect y useMemo
+    - Hook useEffect
+    - Hook useMemo en React
+    - Practica:Hooks useEffect y useMemo
+  - Ciclo de vida de Componentes
+    - Ciclo de vida en React Funcional
+    - Hooks clásicos en React
+    - Practica:Ciclo de vida de Componentes
+  - Conditional Rendering y Components Composition
+    - Conditional Rendering en React
+    - Composición de Componentes en React
+    - Practica:Conditional Rendering y Components Composition
+  - Hooks avanzados en React
+    - Hooks Avanzados: useRef y useCallback
+    - Hooks Avanzados: useReducer
+    - Practica:Hooks avanzados en React
+  - Manejo de Rutas
+    - Manejo de rutas con: react-router-dom
+    - Practica:Manejo de Rutas
+  - Proyecto Final Intro a React
+    - Proyecto Módulo React
+    - Practica:Proyecto Final Intro a React
 - React Avanzado
 - Proyecto final
 
