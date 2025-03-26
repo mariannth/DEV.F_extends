@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Productos en Tienda Online</h1>
+
+        <!-- Filtro y Orden -->
+        <div class="mb-4">
+            <button id="filtrarBtn" class="btn btn-primary">Filtrar productos menores a $100</button>
+            <button id="ordenarBtn" class="btn btn-success">Ordenar productos alfabéticamente</button>
+            <button id="mapearBtn" class="btn btn-warning">Generar lista de nombres</button>
+        </div>
+        <!-- Botones de Acción -->
+        <div class="mb-4">
+            <button id="verificarPrecioBtn" class="btn btn-info">Verificar productos mayores a $100</button>
+            <button id="verificarCategoriaBtn" class="btn btn-secondary">Verificar todos productos de 'Ropa'</button>
+            <button id="verificarProductoBtn" class="btn btn-dark">Verificar producto específico</button>
+        </div>
+
+
+        <!-- Tabla de productos -->
+        <div id="productosContainer">
+            <h3>Lista de Productos</h3>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Categoría</th>
+                    </tr>
+                </thead>
+                <tbody id="productosTableBody">
+                    <!-- Los productos se agregarán aquí con JS -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Resultado de la aplicación de map() -->
+        <h3 class="mt-5">Nombres de los Productos</h3>
+        <ul id="nombresLista"></ul>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
