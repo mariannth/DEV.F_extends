@@ -1,11 +1,13 @@
-class Stack {
-    constructor() {
+class Stack{
+    constructor(){
         this.stack = [];
     }
-    push(data) {
+
+    push(data){
         this.stack = [...this.stack, data];
     }
-    pop() {
+
+    pop(){
         let topElement = this.stack[this.stack.length - 1];
         let newStack = [];
         for (let i = 0; i < this.stack.length - 1; i++) {
@@ -24,7 +26,6 @@ class Stack {
     }
 }
 
-
 const myStack = new Stack();
 
 myStack.push(5);
@@ -36,7 +37,9 @@ console.log(myStack.peek());
 console.log(myStack.pop());
 console.log(myStack.isEmpty());
 
+
 console.log(myStack);
 
 const secondStack = new Stack();
+
 console.log(secondStack.isEmpty());
