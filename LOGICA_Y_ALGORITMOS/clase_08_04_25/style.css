@@ -1,0 +1,15 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+#resultado {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+canvas {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
