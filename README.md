@@ -12,125 +12,149 @@ Programa intensivo de desarrollo web con inteligencia artificial, diseñado para
     - Introducción a JavaScript y su Importancia
     - Tipos de Datos en JavaScript
     - Buenas Prácticas y Comentarios en JavaScript
-    - Practica: Introducción a JavaScript
+    - Practica:  Introducción a JavaScript
   - Comparaciones y decisiones en JavaScript
     - Guardando Valores en Variables y Operadores Básicos
     - Operadores de Comparación y Lógicos
     - Estructura de Control if
-    - Practica:Comparaciones y decisiones en JavaScript
+    - Practica: Comparaciones y decisiones en JavaScript
   - Arreglos y cliclos en JavaScript
     - Ciclo while en JavaScript
     - Ciclo for en JavaScript
     - Arrays (arreglos) en JavaScript
-    - Practica:Arreglos y cliclos
+    - Practica: Arreglos y cliclos
   - Funciones en JavaScript
     - Funciones en JavaScript
-    - Practica:Funciones en JavaScript
+    - Practica: Funciones en JavaScript
   - Intro a Objects en JavaScript
     - Introducción a Objetos en JavaScript
-    - Practica:Objetos en JavaScript
+    - Practica: Objetos en JavaScript
   - Intro al DOM en JavaScript
     - Introducción al DOM con JavaScript
-    - Practica:Intro al DOM en JavaScript
+    - Practica: Intro al DOM en JavaScript
   - Dominando el DOM en JavaScript
     - Acceso y modificación de Contenido del DOM
     - Acceder a clases CSS
-    - Practica:Generador de Passwords
+    - Practica: Generador de Passwords
   - Proyecto Final (dom)
     - El LocalStorage Tema Bonus
-    - Practica:App de Comentarios
+    - Practica: App de Comentarios
 - Lógica y algoritmos
   - Introducción a ECMAScript
     - Introducción a ECMAScript
     - Ejemplos del uso de ECMAScript
-    - Practica:Introducción a ECMAScript
+    - Practica: Introducción a ECMAScript
   - Estructuras de Datos
     - Introducción a estructuras de datos
     - Estructuras de datos comunes en JS
     - Otras estructuras de datos comunes en desarrollo de software
-    - Practica:Estructuras de Datos
+    - Practica: Estructuras de Datos
   - Métodos de Arreglos
     - Métodos de Arreglos (find, map, filter, foreach)
     - Métodos de Arreglos (sort, reduce, some, every)
-    - Practica:Métodos de Arreglos
+    - Practica: Métodos de Arreglos
   - Algoritmo de Los 2 Punteros
     - Algoritmo de los dos punteros
-    - Practica:Algoritmo de Los 2 Punteros
+    - Practica: Algoritmo de Los 2 Punteros
   - Algoritmo Sliding Window
     - Algoritmo Sliding Window
-    - Practica:Algoritmo Sliding Window
+    - Practica: Algoritmo Sliding Window
   - Recursion y backtracking
     - Recursión y backtracking
-    - Practica:Recursion y backtracking
+    - Practica: Recursion y backtracking
   - Divide y Vencerás
     - Divide and Conquer
-    - Practica:Divide y Vencerás
+    - Practica: Divide y Vencerás
   - Introducción al manejo de archivos con Node.js
     - Introducción al manejo de archivos con Node.js
-    - Practica:Introducción al manejo de archivos con Node.js
+    - Practica: Introducción al manejo de archivos con Node.js
 - Desarrollo Avanzado en JavaScript
   - Event Loopp y Asincronicidad
     - Event Loop y asincronicidad
     - Cliente-Servidor y Postman
-    - Practica:Event Loopp y Asincronicidad
+    - Practica: Event Loopp y Asincronicidad
   - Callbacks and JSON
     - Introducción a los Callbacks en JavaScript
     - JSON y Manejo de Datos en JavaScript
-    - Practica:Callbacks and JSON
+    - Practica: Callbacks and JSON
   - Fetch y Axios
     - Introducción a Fetch en JavaScript
     - Introducción a Axios
-    - Practica:Fetch y Axios
+    - Practica: Fetch y Axios
   - Promesas y Async/Await
     - Introducción a las Promesas
     - Introducción a Async/Await
-    - Practica:Promesas y Async/Await
+    - Practica: Promesas y Async/Await
   - Manejo de formularios
     - Manejo de Formularios con JavaScript
     - Manejo de formularios (Parte 2)
-    - Practica:Manejo de formularios
+    - Practica: Manejo de formularios
   - Validación de formularios con Zod
     - Validación de formularios con Zod
     - Validación de formularios con Zod - Ejemplo Práctico
-    - Practica:Validación de formularios con Zod
+    - Practica: Validación de formularios con Zod
   - Intro a Node.js y npm
     - Introducción a node.js y npm
-    - Practica:Intro a Node.js y npm
+    - Practica: Intro a Node.js y npm
   - Intro a Vite
     - Vite parla crear proyectos de Node
-    - Practica:Intro a Vite
+    - Practica: Intro a Vite
 - Introducción a React
   - Intro a React
     - Introducción a React
     - Functional Components en React
-    - Practica:Intro a React
+    - Practica: Intro a React
   - Manejo de Estado
     - Introducción a Props en React
     - Hooks en React y useState
-    - Practica:Manejo de Estado
+    - Practica: Manejo de Estado
   - Hooks useEffect y useMemo
     - Hook useEffect
     - Hook useMemo en React
-    - Practica:Hooks useEffect y useMemo
+    - Practica: Hooks useEffect y useMemo
   - Ciclo de vida de Componentes
     - Ciclo de vida en React Funcional
     - Hooks clásicos en React
-    - Practica:Ciclo de vida de Componentes
+    - Practica: Ciclo de vida de Componentes
   - Conditional Rendering y Components Composition
     - Conditional Rendering en React
     - Composición de Componentes en React
-    - Practica:Conditional Rendering y Components Composition
+    - Practica: Conditional Rendering y Components Composition
   - Hooks avanzados en React
     - Hooks Avanzados: useRef y useCallback
     - Hooks Avanzados: useReducer
-    - Practica:Hooks avanzados en React
+    - Practica: Hooks avanzados en React
   - Manejo de Rutas
     - Manejo de rutas con: react-router-dom
-    - Practica:Manejo de Rutas
+    - Practica: Manejo de Rutas
   - Proyecto Final Intro a React
     - Proyecto Módulo React
-    - Practica:Proyecto Final Intro a React
+    - Practica: Proyecto Final Intro a React
 - React Avanzado
+  - Tailwind CSS y Diseño Básico
+    - React Hook Form y Validación de formularios avanzando
+    - Practica:  FrontEnd Avanzado con React
+  - React Hook Form y Validación
+    - Consumo de APIs (useEffect)
+    - Practica: FrontEnd Avanzado con React
+  - State Management
+    - State Management with useContext
+    - Practica: FrontEnd Avanzado con React
+  - FrontEnd Avanzado con React
+    - El servidor, ¿qué hay en el back end?
+    - Practica: FrontEnd Avanzado con React
+  - Express
+    - Creando un servidor con Express
+    - Practica: FrontEnd Avanzado con React
+  - API REST
+    - ¿Qué es un API REST?
+    - Practica: FrontEnd Avanzado con React
+  - CRUD Básico con Express
+    - Creando un CRUD Básico con Express
+    - Practica: FrontEnd Avanzado con React
+  - Servicios de base de datos
+    - Servicios de base de datos: MongoDB, Supabase SQL Database o Firebase
+    - Practica: FrontEnd Avanzado con React
 - Proyecto final
 
 ## Visita mi portafolio
