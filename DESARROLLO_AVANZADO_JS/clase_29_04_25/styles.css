@@ -1,0 +1,88 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Lista de pedidos */
+#orderList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Elemento de cada pedido */
+#orderList li {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#orderList li.processing {
+    background-color: #f9f871;
+    animation: pulse 1s infinite; /* Animación de pulsado */
+}
+
+#orderList li.completed {
+    background-color: #c8e6c9;
+    animation: fadeIn 1s ease-in-out; /* Animación de completado */
+}
+
+/* Animación para los pedidos en proceso */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Animación para los pedidos completados */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
