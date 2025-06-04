@@ -131,7 +131,7 @@ Programa intensivo de desarrollo web con inteligencia artificial, diseñado para
     - Proyecto Módulo React
     - Practica: Proyecto Final Intro a React
 - React Avanzado
-  - Tailwind CSS y Diseño Básico
+  <!-- - Tailwind CSS y Diseño Básico
     - React Hook Form y Validación de formularios avanzando
     - Practica:  FrontEnd Avanzado con React
   - React Hook Form y Validación
@@ -154,7 +154,7 @@ Programa intensivo de desarrollo web con inteligencia artificial, diseñado para
     - Practica: FrontEnd Avanzado con React
   - Servicios de base de datos
     - Servicios de base de datos: MongoDB, Supabase SQL Database o Firebase
-    - Practica: FrontEnd Avanzado con React
+    - Practica: FrontEnd Avanzado con React -->
 - Proyecto final
 
 ## Visita mi portafolio
