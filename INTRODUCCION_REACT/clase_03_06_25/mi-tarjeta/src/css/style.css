@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c5c7c9;
+}
+h1 {
+  color: #4377b4;
+}
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.tarjeta {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: 320px;
+  margin: auto;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, color 0.3s;
+}
+
+.tarjeta.claro {
+  background-color: white;
+  color: #333;
+}
+
+.tarjeta.oscuro {
+  background-color: #333;
+  color: white;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.skills {
+  margin-top: 1rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
