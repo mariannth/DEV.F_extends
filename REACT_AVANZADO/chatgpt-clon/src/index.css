@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personalizaciones adicionales */
+body {
+  @apply bg-zinc-900 text-white font-sans;
+}
+
+/* Scrollbar personalizado (opcional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Tailwind: bg-gray-600 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: #1f2937; /* Tailwind: bg-zinc-800 */
+}
+
+/* Animación de entrada de mensajes (opcional) */
+.message-enter {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
