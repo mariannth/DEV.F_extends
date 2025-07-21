@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ChatForm from "./components/ChatForm";
+import MessageList from "./components/MessageList";
 
 export default function App() {
   const [messages, setMessages] = useState([]);
@@ -10,21 +11,16 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen w-full bg-gray-900 text-white justify-end">
-      <div className="flex-1 overflow-y-auto p-4 space-y-2 flex flex-col">
-        {messages.map((msg, index) => (
-          <div
-            key={index}
-            className={`max-w-xs px-4 py-2 rounded-lg ${msg.sender === "user"
-                ? "bg-blue-600 self-end"
-                : "bg-gray-700 self-start"
-              }`}
-          >
-            {msg.text}
-          </div>
-        ))}
+    <div className="min-h-screen bg-gradient-to-br from-slate-800 to-gray-900 flex justify-center items-center p-4">
+      <div className="w-full max-w-md h-[90vh] bg-white/10 backdrop-blur-md rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-white/20">
+        <header className="text-center py-4 bg-white/10 border-b border-white/10 text-white font-bold text-lg">
+          💬 Chat Moderno
+        </header>
+
+        <MessageList messages={messages} />
+
+        <ChatForm onSend={handleSendMessage} />
       </div>
-      <ChatForm onSend={handleSendMessage} />
     </div>
   );
 }
